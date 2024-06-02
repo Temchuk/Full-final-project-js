@@ -1,0 +1,61 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.user-details {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(70deg, #fdd4db, #c58acc);
+    border: 3px solid #d267e8;
+    border-radius: 10% 10%;
+    box-shadow: rgba(134, 89, 140, 0.55) 0.5em 0.5em 0.3em;
+
+}
+.posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.post-item {
+    background: linear-gradient(#fdd4db, 40%, #c58acc);
+    border: 3px solid #da54ea;
+    border-radius: 1em;
+    padding: 10px;
+    margin: 20px auto;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    position: relative;
+}
+.post-item button {
+    /*background-color: #fdd4db;*/
+    background: radial-gradient(#ffffff, #ecc1c8);
+    border: 1px solid #85488c;
+    border-radius: 1em;
+    position: absolute;
+    bottom: 0.5em;
+    margin-top: 5em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+}
+.load-posts-button {
+    background: radial-gradient(#fdd4db, #c58acc);
+    border: 3px solid#da54ea;
+    border-radius: 2em;
+    display: block;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    font-size: 18px ;
+
+}
